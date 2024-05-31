@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve-json": "json-server --watch db.json"
+  },
+  "devDependencies": {
+    "sass": "^1.77.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-beta.0"
+  }
+}
