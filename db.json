@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "name": "Graphic T-Shirt",
+      "category": "T-Shirt",
+      "price": 22.99,
+      "image": "https://example.com/images/graphic_tshirt.jpg"
+    },
+    {
+      "name": "V-Neck T-Shirt",
+      "category": "T-Shirt",
+      "price": 18.99,
+      "image": "https://example.com/images/vneck_tshirt.jpg"
+    },
+    {
+      "name": "Pocket T-Shirt",
+      "category": "T-Shirt",
+      "price": 20.99,
+      "image": "https://example.com/images/pocket_tshirt.jpg"
+    },
+    {
+      "name": "Striped T-Shirt",
+      "category": "T-Shirt",
+      "price": 24.99,
+      "discount_price": 19.99,
+      "image": "https://example.com/images/striped_tshirt.jpg"
+    },
+    {
+      "name": "Long Sleeve T-Shirt",
+      "category": "T-Shirt",
+      "price": 26.99,
+      "image": "https://example.com/images/longsleeve_tshirt.jpg"
+    },
+    {
+      "name": "Henley T-Shirt",
+      "category": "T-Shirt",
+      "price": 21.99,
+      "image": "https://example.com/images/henley_tshirt.jpg"
+    },
+    {
+      "name": "Crew Neck T-Shirt",
+      "category": "T-Shirt",
+      "price": 23.99,
+      "image": "https://example.com/images/crewneck_tshirt.jpg"
+    },
+    {
+      "name": "Printed T-Shirt",
+      "category": "T-Shirt",
+      "price": 25.99,
+      "image": "https://example.com/images/printed_tshirt.jpg"
+    },
+    {
+      "name": "Slub T-Shirt",
+      "category": "T-Shirt",
+      "price": 17.99,
+      "image": "https://example.com/images/slub_tshirt.jpg"
+    },
+    {
+      "name": "Basic Hoodie",
+      "category": "Hoodies",
+      "price": 39.99,
+      "image": "https://example.com/images/basic_hoodie.jpg"
+    },
+    {
+      "name": "Graphic Hoodie",
+      "category": "Hoodies",
+      "price": 42.99,
+      "discount_price": 37.99,
+      "image": "https://example.com/images/graphic_hoodie.jpg"
+    },
+    {
+      "name": "Zip-Up Hoodie",
+      "category": "Hoodies",
+      "price": 45.99,
+      "image": "https://example.com/images/zipup_hoodie.jpg"
+    },
+    {
+      "name": "Pullover Hoodie",
+      "category": "Hoodies",
+      "price": 41.99,
+      "image": "https://example.com/images/pullover_hoodie.jpg"
+    },
+    {
+      "name": "Fleece Hoodie",
+      "category": "Hoodies",
+      "price": 49.99,
+      "image": "https://example.com/images/fleece_hoodie.jpg"
+    },
+
+    {
+      "name": "Oversized Hoodie",
+      "category": "Hoodies",
+      "price": 39.99,
+      "image": "https://example.com/images/oversized_hoodie.jpg"
+    },
+    {
+      "name": "Vintage Hoodie",
+      "category": "Hoodies",
+      "price": 44.99,
+      "image": "https://example.com/images/vintage_hoodie.jpg"
+    },
+    {
+      "name": "Slim Fit Hoodie",
+      "category": "Hoodies",
+      "price": 43.99,
+      "image": "https://example.com/images/slimfit_hoodie.jpg"
+    },
+    {
+      "name": "Tie-Dye Hoodie",
+      "category": "Hoodies",
+      "price": 46.99,
+      "image": "https://example.com/images/tiedye_hoodie.jpg"
+    },
+    {
+      "name": "Denim Jacket",
+      "category": "Jacket",
+      "price": 59.99,
+      "image": "https://example.com/images/denim_jacket.jpg"
+    },
+
+    {
+      "name": "Leather Jacket",
+      "category": "Jacket",
+      "price": 89.99,
+      "image": "https://example.com/images/leather_jacket.jpg"
+    },
+    {
+      "name": "Puffer Jacket",
+      "category": "Jacket",
+      "price": 74.99,
+      "image": "https://example.com/images/puffer_jacket.jpg"
+    },
+    {
+      "name": "Windbreaker Jacket",
+      "category": "Jacket",
+      "price": 49.99,
+      "image": "https://example.com/images/windbreaker_jacket.jpg"
+    },
+
+    {
+      "name": "Blazer Jacket",
+      "category": "Jacket",
+      "price": 79.99,
+      "image": "https://example.com/images/blazer_jacket.jpg"
+    },
+    {
+      "name": "Field Jacket",
+      "category": "Jacket",
+      "price": 69.99,
+      "image": "https://example.com/images/field_jacket.jpg"
+    },
+    {
+      "name": "Varsity Jacket",
+      "category": "Jacket",
+      "price": 89.99,
+      "image": "https://example.com/images/varsity_jacket.jpg"
+    },
+    {
+      "name": "Parka Jacket",
+      "category": "Jacket",
+      "price": 94.99,
+      "image": "https://example.com/images/parka_jacket.jpg"
+    },
+    {
+      "name": "Rain Jacket",
+      "category": "Jacket",
+      "price": 64.99,
+      "image": "https://example.com/images/rain_jacket.jpg"
+    }
+  ]
+}
