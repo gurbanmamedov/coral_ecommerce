@@ -2,3 +2,19 @@
 @import "./base/normalizer";
 @import "./base/fonts";
 @import "./components/explore/explore";
+@import "./components/catalog/catalog";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
