@@ -1,0 +1,81 @@
+.footer {
+  &__container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  &__logo {
+    width: 130px;
+    height: 26px;
+    margin-bottom: 32px;
+  }
+  &__description {
+    width: 392px;
+    height: 206px;
+    color: rgba(30, 40, 50, 0.75);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  &__title {
+    color: rgb(0, 0, 0);
+    font-family: " Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    /* H6 */
+  }
+  &__link {
+    color: rgb(30, 40, 50);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__payments {
+    width: 283px;
+    height: 24px;
+  }
+  &__copyright {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  &__btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+
+  &__content-bottom {
+    background-color: black;
+  }
+
+  &__inner {
+    padding: 14px 0px 14px 0px;
+  }
+
+  &__scroll {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+  }
+}
