@@ -92,6 +92,8 @@
   }
 
   &__btn {
+    display: flex;
+    gap: 10px;
     padding: 19px 26px;
     color: white;
     background-color: Black;
@@ -125,3 +127,5 @@
     right: 0px;
   }
 }
+
+
