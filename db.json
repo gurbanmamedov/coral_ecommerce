@@ -86,7 +86,6 @@
       "price": 49.99,
       "image": "https://example.com/images/fleece_hoodie.jpg"
     },
-
     {
       "name": "Oversized Hoodie",
       "category": "Hoodies",
@@ -117,7 +116,6 @@
       "price": 59.99,
       "image": "https://example.com/images/denim_jacket.jpg"
     },
-
     {
       "name": "Leather Jacket",
       "category": "Jacket",
@@ -136,7 +134,6 @@
       "price": 49.99,
       "image": "https://example.com/images/windbreaker_jacket.jpg"
     },
-
     {
       "name": "Blazer Jacket",
       "category": "Jacket",
@@ -166,6 +163,20 @@
       "category": "Jacket",
       "price": 64.99,
       "image": "https://example.com/images/rain_jacket.jpg"
+    }
+  ],
+  "carouselImages": [
+    {
+      "src": "./src/assets/images/Slider Images/brand-banner.png",
+      "alt": "Image 1 description"
+    },
+    {
+      "src": "./src/assets/images/Slider Images/brand-banner.png",
+      "alt": "Image 2 description"
+    },
+    {
+      "src": "./src/assets/images/Slider Images/brand-banner.png",
+      "alt": "Image 3 description"
     }
   ]
 }
