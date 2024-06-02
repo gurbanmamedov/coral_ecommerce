@@ -23,7 +23,7 @@
             alt="logo"
           />
           <div class="nav__account d-flex gap-4 justify-content-end">
-            <a class="nav__profile" href=""
+            <a class="nav__profile" id="openModalButton" href=""
               ><i class="fa-solid fa-user"></i>Account</a
             >
             <a class="nav__cart" href=""
@@ -59,6 +59,50 @@
           </ul>
         </div>
       </nav>
+      <div id="newModal" class="modal">
+        <div class="modal__content">
+          <form class="account">
+            <h2 class="account__title">Registration</h2>
+            <div class="form-group">
+              <label for="username" class="username-label">Full name</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="account__username"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="login" class="login-label">Login </label>
+              <input
+                type="text"
+                id="login"
+                name="login"
+                class="account__login"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password" class="password-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="account__password"
+                required
+              />
+            </div>
+            <button id="registerButton" class="account__btn" type="submit">
+              Sign up
+            </button>
+            <p class="account__log">
+              Already have an account <a href="#">Log In</a>
+            </p>
+          </form>
+          <button id="closeModalButton" class="modal__close">X</button>
+        </div>
+      </div>
       <div class="hero container pt-3 d-flex justify-content-between mb">
         <div class="hero__content-left">
           <h1 class="hero__title">Collections</h1>
@@ -227,7 +271,9 @@
         </div>
       </section>
       <section class="sellers sellers__container">
-        <h2 class="sellers__title text-center" id="sellersAnchor">Best sellers</h2>
+        <h2 class="sellers__title text-center" id="sellersAnchor">
+          Best sellers
+        </h2>
         <div class="sellers__tabs d-flex justify-content-between">
           <ul class="tabs__list d-flex gap-5 list-unstyled">
             <li class="list__items list__items--active">all products</li>
