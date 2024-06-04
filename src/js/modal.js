@@ -6,6 +6,8 @@ const button = document.getElementById("registerButton");
 const openModalButton = document.getElementById("openModalButton");
 const closeModalButton = document.getElementById("closeModalButton");
 const modal = document.getElementById("newModal");
+const successModal = document.getElementById("successModal");
+const closeSuccessModalButton = document.getElementById("closeSuccessModalButton");
 
 let users = JSON.parse(localStorage.getItem("users")) || {};
 
@@ -18,13 +20,21 @@ function User(name, login, password) {
 button.addEventListener("click", (event) => {
   event.preventDefault();
 
-  const nameUser = username.value;
-  const loginUser = login.value;
-  const passwordUser = password.value;
+  const nameUser = username.value.trim();
+  const loginUser = login.value.trim();
+  const passwordUser = password.value.trim();
 
-  
-  if (!nameUser || !loginUser || !passwordUser) {
-    alert("Please fill in all fields.");
+  // Проверка на заполненность полей
+  if (!nameUser) {
+    alert("Full name is required.");
+    return;
+  }
+  if (!loginUser) {
+    alert("Login is required.");
+    return;
+  }
+  if (!passwordUser) {
+    alert("Password is required.");
     return;
   }
 
@@ -34,7 +44,10 @@ button.addEventListener("click", (event) => {
 
   localStorage.setItem("users", JSON.stringify(users));
 
-  alert(`Successful registration, ${nameUser}`);
+  // Скрываем первую модалку и показываем вторую
+  modal.style.display = "none";
+  successModal.style.display = "flex";
+  document.body.classList.add("modal-open");
 });
 
 openModalButton.addEventListener("click", (event) => {
@@ -48,8 +61,17 @@ closeModalButton.addEventListener("click", () => {
   document.body.classList.remove("modal-open");
 });
 
+closeSuccessModalButton.addEventListener("click", () => {
+  successModal.style.display = "none";
+  document.body.classList.remove("modal-open");
+});
+
 window.addEventListener("click", (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
+    document.body.classList.remove("modal-open");
+  } else if (event.target == successModal) {
+    successModal.style.display = "none";
+    document.body.classList.remove("modal-open");
   }
 });
