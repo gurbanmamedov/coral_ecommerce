@@ -24,7 +24,6 @@ button.addEventListener("click", (event) => {
   const loginUser = login.value.trim();
   const passwordUser = password.value.trim();
 
-  // Проверка на заполненность полей
   if (!nameUser) {
     alert("Full name is required.");
     return;
@@ -44,7 +43,6 @@ button.addEventListener("click", (event) => {
 
   localStorage.setItem("users", JSON.stringify(users));
 
-  // Скрываем первую модалку и показываем вторую
   modal.style.display = "none";
   successModal.style.display = "flex";
   document.body.classList.add("modal-open");
