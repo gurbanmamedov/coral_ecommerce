@@ -1,3 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./base/normalizer";
 @import "./base/fonts";
+@import "./components/header/header";
+@import "./components/header/cart";
+@import "./components/header/modal";
+@import "./components/explore/explore";
+@import "./components/catalog/catalog";
+@import "./components/banner/banner";
+@import "./components/sellers/sellers";
+@import "./components/instagram/instagram";
+@import "./components/footer/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

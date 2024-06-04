@@ -1,0 +1,56 @@
+.explore {
+  margin-bottom: 140px;
+  &__container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    transform: rotate(-90deg);
+    width: 650px;
+    position: absolute;
+    bottom: 212px;
+    left: -50px;
+    font-family: "Roboto";
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+}
+
+.explore__content-top {
+  width: 100%;
+}
+
+.album__images--right {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.album__image--large {
+  border: 2px dashed gray;
+  margin-right: 10px;
+}
+.album__image--small {
+  border: 2px dashed gray;
+}
+
+.album__sale {
+  position: relative;
+}
+
+.sale__label {
+  position: absolute;
+  left: 0;
+  top: 22px;
+  padding: 4px 12px;
+  background: rgb(30, 40, 50);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
