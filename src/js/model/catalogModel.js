@@ -1,11 +1,15 @@
-import axios from "axios";
+// export const CartModel = {
+//   cart: [],
 
-export async function fetchProducts() {
-  try {
-    const { data } = await axios.get("http://localhost:3000/products?");
-    return data;
-  } catch (error) {
-    console.error("Error fetching the products:", error);
-    return [];
-  }
-}
+//   addToCart(item) {
+//     this.cart.push(item);
+//   },
+
+//   removeFromCart(index) {
+//     this.cart.splice(index, 1);
+//   },
+
+//   clearCart() {
+//     this.cart.length = 0;
+//   },
+// };
